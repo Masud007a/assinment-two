@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 86%;
+    margin: 0 auto;
+}
+
+.btn {
+    background: #FF900E;
+    color: #fff;
+    font-size: 20px;
+    padding: 16px 22px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pera {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin: 22px 0;
+}
+
+header {
+    background: #FFF4E7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav h2 {
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+
+.banner-info {
+    text-align: center;
+    padding: 20px 260px;
+}
+
+.banner-info h1 {
+    font-size: 60px;
+}
+
+.banner-img {
+    padding: 32px 0;
+}
+
+.banner-img img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* main section style start hare  */
+
+.features {
+    margin: 80px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 60px;
+}
+
+.features-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.features-imgs img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.features-info h2 {
+    color: #777;
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.features-info h2 b {
+    color: #000;
+}
+
+.features-info h2 span {
+    color: #FF900E;
+}
+
+.features-info p {
+    padding-right: 100px;
+}
+
+.features-ele {
+    padding-right: 100px;
+}
+
+.features-ele h2 {
+    font-size: 42px;
+    padding-left: 20px;
+    border-left: 4px solid #FF900E;
+}
+
+.features-ele div {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0px #999;
+    margin: 16px 0;
+}
+
+.features-ele div h3 {
+    font-size: 22px;
+}
+
+
+.features-model {
+    position: relative;
+}
+
+.features-model img {
+    max-width: 100%;
+}
+
+.features-model button {
+    text-transform: capitalize;
+    font-size: 32px;
+    position: absolute;
+    bottom: -50px;
+    left: -40px;
+}
+
+.features-model button span {
+    font-size: 20px;
+}
+
+.facts {
+    margin: 80px 0;
+}
+
+.facts h2 {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.facts-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.facts-container div {
+    border: 1px solid #FF900E;
+    padding: 16px 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.facts-container div h3 {
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.facts-container div p {
+    margin: 0;
+}
+
+.sponsors {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.sponsors h2 {
+    font-size: 46px;
+    text-transform: capitalize;
+}
+
+.sponsors-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h2 {
+    background: #FFF4E7;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 20px 0;
+    margin-top: 40px;
+    color: #666;
+}
